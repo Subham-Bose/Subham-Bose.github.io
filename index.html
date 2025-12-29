@@ -7,42 +7,122 @@
 </head>
 <body>
 
+  <nav>
+    <h2>Subham Bose</h2>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
   <header>
-    <h1>Subham Bose</h1>
-    <p>Senior Software Engineer | .NET | Angular</p>
+    <h1>Software Engineer</h1>
+    <p>.NET | ASP.NET Core | Angular | Web APIs</p>
   </header>
 
-  <section>
-    <h2>About Me</h2>
+  <section id="about">
+    <h3>About Me</h3>
     <p>
-      Senior Software Engineer with experience in building scalable web
-      applications using .NET, Web APIs, Angular, and SQL Server.
+      I am a Software Engineer with hands-on experience in building
+      scalable, secure, and maintainable web applications using .NET,
+      ASP.NET Core, Angular, and SQL Server. I enjoy working on clean
+      architecture and solving real-world problems.
     </p>
   </section>
 
-  <section>
-    <h2>Skills</h2>
-    <ul>
-      <li>C#, .NET, ASP.NET Core</li>
-      <li>Web API, Entity Framework</li>
-      <li>Angular, TypeScript</li>
-      <li>SQL Server</li>
-      <li>Git, REST APIs</li>
-    </ul>
+  <section id="skills">
+    <h3>Skills</h3>
+    <div class="grid">
+      <span>C# / .NET</span>
+      <span>ASP.NET Core</span>
+      <span>Web APIs</span>
+      <span>Entity Framework</span>
+      <span>Angular</span>
+      <span>TypeScript</span>
+      <span>SQL Server</span>
+      <span>Git</span>
+    </div>
   </section>
 
-  <section>
-    <h2>Projects</h2>
-    <ul>
-      <li><strong>Logging Library</strong> – Centralized logging for a monolithic application</li>
-    </ul>
+  <section id="projects">
+    <h3>Projects</h3>
+
+    <div class="card">
+    <h4>URL Shortening Application</h4>
+    <p>
+      Designed and developed a URL Shortening application that converts
+      long URLs into short, shareable links. Implemented REST APIs using
+      ASP.NET Core with database persistence, validation, and redirection
+      logic. Focused on clean architecture, scalability, and performance.
+    </p>
+
+    <p>
+      <strong>Tech Stack:</strong> ASP.NET Core, Web API, C#, SQL Server
+    </p>
+
+    <p>
+      <a href="https://github.com/Subham-Bose/URL-Shortening-Application" target="_blank">
+        View Source Code
+      </a>
+    </p>
+  </div>
+
+    <div class="card">
+	  <h4>License Plate Recognition API</h4>
+
+	  <p>
+		Developed a RESTful API that detects and recognizes vehicle license
+		plates from uploaded images. The application integrates with an
+		external recognition service to process images and return structured
+		results, focusing on clean API design, validation, and error handling.
+	  </p>
+
+	  <p>
+		<strong>Key Features:</strong>
+		Image upload via HTTP POST, external API integration, structured JSON
+		responses, and robust error handling for invalid inputs.
+	  </p>
+
+	  <p>
+		<strong>Tech Stack:</strong>
+		ASP.NET Core (.NET 8), Web API, C#, REST, External API Integration
+	  </p>
+
+	  <p>
+		<strong>Endpoint:</strong><br />
+		<code>POST /api/PlateRecognition/recognizelicenseplate</code>
+	  </p>
+
+	  <p>
+		<a href="https://github.com/Subham-Bose/license-plate-recognition"
+		   target="_blank"
+		   rel="noopener noreferrer">
+		  View Source Code
+		</a>
+	  </p>
+	</div>
+
   </section>
 
-  <section>
-    <h2>Contact</h2>
-    <p>Email: subhambose@yahoo.in</p>
+  <section id="contact">
+    <h3>Contact</h3>
+	<p>Phone: <a href="tel:+919903781432"> (+91) 9903781432</a></p>
+    <p>Email: <a href="mailto:subhambose@yahoo.in"> subhambose@yahoo.in </a></p>
     <p>
       LinkedIn:
-      <a href="https://www.linkedin.com/in/subham-bose-4581a81b0" target="https://www.linkedin.com/in/subham-bose-4581a81b0">Profile</a>
+      <a href="https://www.linkedin.com/in/subham-bose-4581a81b0" target="https://www.linkedin.com/in/subham-bose-4581a81b0">LinkedIn</a>
     </p>
-  </s
+    <p>
+      GitHub:
+      <a href="https://github.com/Subham-Bose" target="https://github.com/Subham-Bose">GitHub</a>
+    </p>
+  </section>
+
+  <footer>
+    <p>© 2025 Subham Bose</p>
+  </footer>
+
+</body>
+</html>
